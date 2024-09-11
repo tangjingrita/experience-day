@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build --dotenv .env.prod",
+    "dev": "nuxt dev --dotenv .env.dev",
+    "generate": "nuxt generate --dotenv .env.prod",
+    "preview": "nuxt preview --dotenv .env.prod",
+    "postinstall": "nuxt prepare --dotenv .env.prod"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "uuid": "^10.0.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.10",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "e": "^0.2.33",
+    "element-plus": "^2.8.1",
+    "sass": "^1.77.8"
+  }
+}

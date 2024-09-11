@@ -1,0 +1,66 @@
+
+	.spdiv {
+		max-width: 680px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	body,
+	td,
+	th,
+	div {
+		color: #FFFFFF;
+	}
+
+.container {
+	height: 100vh;
+	max-width: 700px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	overflow-x: hidden;
+	background-color: $primaryColor ;
+}
+
+.info-bd {
+	border-radius: 5px;
+	margin-left: 3%;
+	margin-right: 3%;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: $secondaryColor 2px solid;
+}
+
+.info-title {
+	position: absolute;
+	top: -16px;
+	left: 50%;
+	transform: translateX(-48%);
+	font-size: 20px;
+	padding: 10px;
+	color: $secondaryColor;
+	background-color: $primaryColor ;
+}
+
+.info-text {
+	color: white;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height:180%
+}
+
+.img-sp {
+	margin-bottom: 15px;
+	width: 100%;
+	max-width: 700px;
+}
+
+.copy-right {
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+	margin-bottom: 20px;
+	font-size: 12px;
+}

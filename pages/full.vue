@@ -9,8 +9,7 @@
 </template>
 
 <script setup>
-	
-		
+	const router = useRouter();
 		useHead({
 		  title: '登記提示',
 		  meta: [
